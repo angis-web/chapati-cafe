@@ -243,8 +243,8 @@ body {
     background: #B85F00;
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 5px 3px;
+    padding: 7px 16px;
+    margin: 3px 3px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
@@ -522,14 +522,14 @@ footer {
     }
 
     .food-card {
-        width: 165px;
-        height: 100%;
+        width: 150px;
+        height: 90%;
     }
     .menu-container {
         padding: 40px 2%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
+        gap: 0px;
         justify-items: center;
         align-items: center;
     }
@@ -538,12 +538,14 @@ footer {
         width: 100%;
     }
     .food-info {
-        padding: 20px;
+        padding: 5px 20px;
     }
 
     .food-info h3, .food-info p {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bold;
+        margin: 0;
+        padding: 0;
     }
 
     .nav-links {
